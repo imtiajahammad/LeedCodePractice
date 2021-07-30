@@ -36,7 +36,6 @@ namespace LeedCodePractice
             Console.WriteLine();
             Console.WriteLine();
             this.board = board2;
-            #region approach1
             int N = 9;
             HashSet<char>[] rows = new HashSet<char>[N];
             HashSet<char>[] columns = new HashSet<char>[N];
@@ -87,17 +86,10 @@ namespace LeedCodePractice
             }
             // Time-COMPLEXITY:O(N2)
             // SPACE-COMPLEXITY:O(N2)
-            #endregion approach1
-
-            #region approach2
-            #endregion approach2
-            #region approach3
-            #endregion approach3
         }
         private bool ValudSudokuFunction()
         {
             this.board = board2;
-            #region approach1
             int N = 9;
             HashSet<char>[] rows = new HashSet<char>[N];
             HashSet<char>[] columns = new HashSet<char>[N];
@@ -149,7 +141,6 @@ namespace LeedCodePractice
             return true;
             // Time-COMPLEXITY:O(N2)
             // SPACE-COMPLEXITY:O(N2)
-            #endregion approach1
         }
 
 
