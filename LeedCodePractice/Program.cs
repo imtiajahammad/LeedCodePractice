@@ -15,9 +15,13 @@ namespace LeedCodePractice
             Remove_Duplicates_from_Sorted_Array random1 = new Remove_Duplicates_from_Sorted_Array(nums);
             Console.WriteLine("#random1->end--Remove Duplicates from Sorted Array");
 
+            Console.WriteLine("-----------------------------------------------------------------");
 
-
-
+            Console.WriteLine("#random2->start--ValidSudoku");
+            Console.WriteLine();
+            ValidSudoku random2 = new ValidSudoku();
+            Console.WriteLine();
+            Console.WriteLine("#random2->end--ValidSudoku");
 
 
 
