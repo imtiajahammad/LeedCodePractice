@@ -20,12 +20,12 @@ namespace LeedCodePractice
         
     public Transpose_Matrix()
         {
-            int columns = matrix.Length;
-            int rows = matrix[0].Length;
-            int[][] transpose = new int[rows][];
-            for (int i = 0; i < rows; i++) //this loop is because i cant just declare int [][] transpose = new int[m][n] ... c# things
+            int toBeColumns = matrix.Length;
+            int toBeRows = matrix[0].Length;
+            int[][] transpose = new int[toBeRows][];
+            for (int i = 0; i < toBeRows; i++) //this loop is because i cant just declare int [][] transpose = new int[m][n] ... c# things
             {
-                transpose[i] = new int[columns];
+                transpose[i] = new int[toBeColumns];
             }
             for (int row = 0; row < matrix.Length; row++)
             {
@@ -71,18 +71,17 @@ namespace LeedCodePractice
 
     public int[][] Transpose_Matrix_Function()
         {
-            int columns = matrix.Length;
-            int rows = matrix[0].Length;
-            int[][] transpose = new int[rows][];
-            for (int i = 0; i < rows; i++) //this loop is because i cant just declare int [][] transpose = new int[m][n] ... c# things
+            int toBeColumns = matrix.Length;
+            int toBeRows = matrix[0].Length;
+            int[][] transpose = new int[toBeRows][];
+            for (int i = 0; i < toBeRows; i++) //this loop is because i cant just declare int [][] transpose = new int[m][n] ... c# things
             {
-                transpose[i] = new int[columns];
+                transpose[i] = new int[toBeColumns];
             }
             for (int row = 0; row < matrix.Length; row++)
             {
                 for (int column = 0; column < matrix[row].Length; column++)
                 {
-                    int temp = matrix[row][column];
                     transpose[column][row] = matrix[row][column];
                 }
             }
