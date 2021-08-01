@@ -25,6 +25,16 @@ namespace LeedCodePractice
 
 
 
+
+            Console.WriteLine("-----------------------------------------------------------------");
+
+            Console.WriteLine("#random3->start--transpose-matrix");
+            Console.WriteLine();
+            Transpose_Matrix transposematrix = new Transpose_Matrix();
+            Console.WriteLine();
+            Console.WriteLine("#random3->end--transpose-matrix");
+
+
             Console.ReadKey();
         }
     }
