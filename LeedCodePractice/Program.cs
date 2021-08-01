@@ -35,6 +35,16 @@ namespace LeedCodePractice
             Console.WriteLine("#random3->end--transpose-matrix");
 
 
+            Console.WriteLine("-----------------------------------------------------------------");
+
+            Console.WriteLine("#random3->start--Rotate_Image");
+            Console.WriteLine();
+            Rotate_Image Rotate_Image = new Rotate_Image();
+            Console.WriteLine();
+            Console.WriteLine("#random3->end--Rotate_Image");
+
+
+
             Console.ReadKey();
         }
     }
