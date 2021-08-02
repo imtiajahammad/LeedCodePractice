@@ -44,6 +44,14 @@ namespace LeedCodePractice
             Console.WriteLine("#random3->end--Rotate_Image");
 
 
+            Console.WriteLine("-----------------------------------------------------------------");
+
+            Console.WriteLine("#random3->start--Reverse_String");
+            Console.WriteLine();
+            Reverse_String Reverse_String = new Reverse_String();
+            Console.WriteLine();
+            Console.WriteLine("#random3->end--Reverse_String");
+            
 
             Console.ReadKey();
         }
