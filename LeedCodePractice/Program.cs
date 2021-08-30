@@ -51,6 +51,16 @@ namespace LeedCodePractice
             Reverse_String Reverse_String = new Reverse_String();
             Console.WriteLine();
             Console.WriteLine("#random3->end--Reverse_String");
+
+
+
+            Console.WriteLine("-----------------------------------------------------------------");
+
+            Console.WriteLine("#random4->start--Reverse_Integer");
+            Console.WriteLine();
+            Reverse_Integer Reverse_Integer = new Reverse_Integer();
+            Console.WriteLine();
+            Console.WriteLine("#random4->end--Reverse_Integer");
             
 
             Console.ReadKey();
