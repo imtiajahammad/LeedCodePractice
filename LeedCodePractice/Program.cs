@@ -61,7 +61,14 @@ namespace LeedCodePractice
             Reverse_Integer Reverse_Integer = new Reverse_Integer();
             Console.WriteLine();
             Console.WriteLine("#random4->end--Reverse_Integer");
-            
+
+
+            Console.WriteLine("-----------------------------------------------------------------");
+            Console.WriteLine("#random4->start--First Unique Character in string");
+            Console.WriteLine();
+            First_Unique_Character_in_string First_Unique_Character_in_string = new First_Unique_Character_in_string();
+            Console.WriteLine();
+            Console.WriteLine("#random4->end--First Unique Character in string");
 
             Console.ReadKey();
         }
